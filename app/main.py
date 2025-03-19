@@ -32,3 +32,4 @@ class Carnivore(Animal):
             if second_animal.health <= 0:
                 Animal.alive.remove(second_animal)
         return second_animal.health
+ 
